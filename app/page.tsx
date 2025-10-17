@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'PetPortrait.co',
     images: [
       {
-        url: '/images/homepage/hero.jpg',
+        url: '/images/homepage/hero-showcase.jpg',
         width: 1200,
         height: 630,
         alt: 'Pet Portrait Guide - Custom Pet Portraits',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pet Portrait Guide - Custom Pet Portraits & Breed Guides',
     description: 'The internet\'s guide to pet portraits. Discover breed-specific portrait styles and photo tips.',
-    images: ['/images/homepage/hero.jpg'],
+        images: ['/images/homepage/hero-showcase.jpg'],
   },
   alternates: {
     canonical: 'https://petportrait.co',

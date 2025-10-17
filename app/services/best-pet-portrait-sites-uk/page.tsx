@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: 'PetPortrait.co',
     images: [
       {
-        url: '/images/services/comparison.jpg',
+        url: '/images/services/portrait-comparison.jpg',
         width: 1200,
         height: 630,
         alt: 'Best pet portrait services UK comparison',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pet Portrait Sites UK 2024 - Reviews & Comparison',
     description: 'Comprehensive review of the top pet portrait services in the UK.',
-    images: ['/images/services/comparison.jpg'],
+        images: ['/images/services/portrait-comparison.jpg'],
   },
   alternates: {
     canonical: 'https://petportrait.co/services/best-pet-portrait-sites-uk',

@@ -19,7 +19,7 @@
       "size": "55–75 lb",
       "lifespan": "10–12 years"
     },
-    "example_image": "/images/breeds/golden-retriever.jpg",
+    "example_image": "/images/breeds/golden-retriever-traditional.jpg",
     "faqs": [
       {
         "question": "What makes Golden Retrievers great subjects for portraits?",
@@ -55,7 +55,7 @@
       "size": "55–80 lb",
       "lifespan": "10–14 years"
     },
-    "example_image": "/images/breeds/labrador-retriever.jpg",
+    "example_image": "/images/breeds/labrador-splash-sketch.jpg",
     "faqs": [
       {
         "question": "Why are Labradors popular portrait subjects?",
@@ -91,7 +91,7 @@
       "size": "50–90 lb",
       "lifespan": "9–13 years"
     },
-    "example_image": "/images/breeds/german-shepherd.jpg",
+    "example_image": "/images/breeds/german-shepherd-traditional.jpg",
     "faqs": [
       {
         "question": "What makes German Shepherds striking portrait subjects?",
@@ -127,7 +127,7 @@
       "size": "20–28 lb",
       "lifespan": "10–12 years"
     },
-    "example_image": "/images/breeds/french-bulldog.jpg",
+    "example_image": "/images/breeds/french-bulldog-throne.jpg",
     "faqs": [
       {
         "question": "Why are French Bulldogs popular for portraits?",
@@ -163,7 +163,7 @@
       "size": "7–12 lb",
       "lifespan": "12–17 years"
     },
-    "example_image": "/images/breeds/persian-cat.jpg",
+    "example_image": "/images/breeds/persian-cat-traditional.jpg",
     "faqs": [
       {
         "question": "What makes Persian cats ideal portrait subjects?",
@@ -199,7 +199,7 @@
       "size": "8–18 lb",
       "lifespan": "13–14 years"
     },
-    "example_image": "/images/breeds/maine-coon.jpg",
+    "example_image": "/images/breeds/maine-coon-traditional.jpg",
     "faqs": [
       {
         "question": "Why are Maine Coons great for portraits?",
@@ -235,7 +235,7 @@
       "size": "7–17 lb",
       "lifespan": "12–20 years"
     },
-    "example_image": "/images/breeds/british-shorthair.jpg",
+    "example_image": "/images/breeds/british-shorthair-traditional.jpg",
     "faqs": [
       {
         "question": "What makes British Shorthairs perfect portrait subjects?",
@@ -271,7 +271,7 @@
       "size": "8–20 lb",
       "lifespan": "12–17 years"
     },
-    "example_image": "/images/breeds/ragdoll.jpg",
+    "example_image": "/images/breeds/ragdoll-traditional.jpg",
     "faqs": [
       {
         "question": "Why are Ragdolls ideal for gentle portrait styles?",
@@ -307,7 +307,7 @@
       "size": "30–55 lb",
       "lifespan": "12–15 years"
     },
-    "example_image": "/images/breeds/border-collie.jpg",
+    "example_image": "/images/breeds/border-collie-traditional.jpg",
     "faqs": [
       {
         "question": "What makes Border Collies great action portrait subjects?",
@@ -343,7 +343,7 @@
       "size": "35–60 lb",
       "lifespan": "12–14 years"
     },
-    "example_image": "/images/breeds/siberian-husky.jpg",
+    "example_image": "/images/breeds/siberian-husky-traditional.jpg",
     "faqs": [
       {
         "question": "What makes Huskies striking portrait subjects?",
