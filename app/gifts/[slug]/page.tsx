@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: GiftPageProps): Promise<Metad
       siteName: 'PetPortrait.co',
       images: [
         {
-          url: '/images/gift-guides/default.jpg',
+          url: `/images/gift-guides/${giftGuide.slug}.jpg`,
           width: 1200,
           height: 630,
           alt: `${giftGuide.title} gift ideas`,
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: GiftPageProps): Promise<Metad
       card: 'summary_large_image',
       title,
       description,
-      images: ['/images/gift-guides/default.jpg'],
+        images: [`/images/gift-guides/${giftGuide.slug}.jpg`],
     },
     alternates: {
       canonical: `https://petportrait.co/gifts/${giftGuide.slug}`,

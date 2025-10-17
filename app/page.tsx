@@ -130,12 +130,12 @@ export default function HomePage() {
                   href={`/breeds/${breed.slug}`}
                   className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                 >
-                  <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-4xl font-bold text-gray-400">
-                        {breed.name.charAt(0)}
-                      </span>
-                    </div>
+                  <div className="aspect-video relative">
+                    <img 
+                      src={breed.example_image} 
+                      alt={`${breed.name} portrait example`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
@@ -262,10 +262,12 @@ export default function HomePage() {
                   href={`/gifts/${gift.slug}`}
                   className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                 >
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-200 relative">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-4xl">🎁</span>
-                    </div>
+                  <div className="aspect-video relative">
+                    <img 
+                      src={`/images/gift-guides/${gift.slug}.jpg`} 
+                      alt={`${gift.title} gift ideas`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
