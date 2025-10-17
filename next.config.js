@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    optimizePackageImports: ['lucide-react'],
+    // optimizePackageImports: ['lucide-react'], // Removed as lucide-react was removed
   },
 };
 
