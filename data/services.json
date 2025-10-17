@@ -1,0 +1,124 @@
+{
+  "country": "uk",
+  "title": "Best Pet Portrait Sites UK",
+  "description": "Comprehensive review of the top pet portrait services in the UK, comparing quality, price, and delivery times.",
+  "last_updated": "2024-01-15",
+  "entries": [
+    {
+      "rank": 1,
+      "name": "The Family Portrait Company",
+      "url": "https://familyportraitcompany.com/",
+      "summary": "High-quality custom portraits with quick delivery and excellent value.",
+      "pros": [
+        "Great value offers starting from £6",
+        "Fast turnaround (3-5 days)",
+        "Multiple portrait styles available",
+        "Excellent customer service",
+        "High-quality materials"
+      ],
+      "cons": [
+        "Popular service - can sell out in peak season",
+        "Limited to UK delivery only"
+      ],
+      "price_range": "From £6–£30",
+      "delivery_time": "3-5 days",
+      "rating": 4.8,
+      "review_count": 1250,
+      "specialties": ["Custom Pet Portraits", "Family Portraits", "Digital Art", "Print Services"]
+    },
+    {
+      "rank": 2,
+      "name": "Pet Portrait Studio",
+      "url": "https://petportraitstudio.co.uk",
+      "summary": "Professional pet portrait service with traditional artistic styles.",
+      "pros": [
+        "Traditional artistic styles",
+        "Experienced artists",
+        "High-quality prints"
+      ],
+      "cons": [
+        "Higher prices",
+        "Longer delivery times (7-14 days)",
+        "Limited style options"
+      ],
+      "price_range": "£29–£79",
+      "delivery_time": "7-14 days",
+      "rating": 4.5,
+      "review_count": 320,
+      "specialties": ["Oil Paintings", "Watercolour", "Pencil Sketches"]
+    },
+    {
+      "rank": 3,
+      "name": "Digital Pet Art",
+      "url": "https://digitalpetart.com",
+      "summary": "Modern digital pet portraits with quick turnaround.",
+      "pros": [
+        "Fast digital delivery",
+        "Modern styles",
+        "Good customer service"
+      ],
+      "cons": [
+        "Digital only (no physical prints)",
+        "Limited customization options",
+        "Higher prices for prints"
+      ],
+      "price_range": "£15–£45",
+      "delivery_time": "2-3 days",
+      "rating": 4.3,
+      "review_count": 180,
+      "specialties": ["Digital Art", "Social Media Graphics", "Print-on-Demand"]
+    },
+    {
+      "rank": 4,
+      "name": "Custom Pet Portraits UK",
+      "url": "https://custompetportraitsuk.com",
+      "summary": "Hand-drawn pet portraits with personal touch.",
+      "pros": [
+        "Hand-drawn artwork",
+        "Personalized service",
+        "Good communication"
+      ],
+      "cons": [
+        "Very long delivery times (14-21 days)",
+        "Limited availability",
+        "Higher prices"
+      ],
+      "price_range": "£35–£95",
+      "delivery_time": "14-21 days",
+      "rating": 4.2,
+      "review_count": 95,
+      "specialties": ["Hand-drawn Portraits", "Charcoal Art", "Custom Commissions"]
+    },
+    {
+      "rank": 5,
+      "name": "Pet Art Gallery",
+      "url": "https://petartgallery.co.uk",
+      "summary": "Premium pet portrait service with luxury options.",
+      "pros": [
+        "Premium quality",
+        "Luxury materials",
+        "Framing options"
+      ],
+      "cons": [
+        "Very expensive",
+        "Long delivery times",
+        "Limited budget options"
+      ],
+      "price_range": "£75–£200",
+      "delivery_time": "10-21 days",
+      "rating": 4.6,
+      "review_count": 45,
+      "specialties": ["Luxury Portraits", "Oil Paintings", "Framing Services"]
+    }
+  ],
+  "comparison_criteria": [
+    "Price Range",
+    "Delivery Time",
+    "Quality",
+    "Customer Service",
+    "Style Options",
+    "Availability"
+  ],
+  "methodology": "Our rankings are based on customer reviews, price competitiveness, delivery speed, and overall value. We regularly update our reviews to ensure accuracy.",
+  "disclaimer": "This is an independent review. We may receive compensation from some services listed, but this does not affect our editorial independence."
+}

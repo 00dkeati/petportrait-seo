@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "golden-retriever",
+    "name": "Golden Retriever",
+    "category": "dog",
+    "traits": ["friendly", "intelligent", "family-oriented"],
+    "portrait_styles": ["Classic Pencil", "Minimal Line", "Colour Splash"],
+    "photo_tips": [
+      "Shoot near a bright window; avoid harsh noon light.",
+      "Get to eye level; focus on the eyes.",
+      "Use a plain background or distance subject from background.",
+      "Capture their gentle expression during calm moments.",
+      "Use treats to get their attention and natural head tilt."
+    ],
+    "overview": {
+      "origin": "Scotland",
+      "temperament": "Gentle, loyal, eager to please",
+      "coat": "Dense double coat, golden shades",
+      "size": "55–75 lb",
+      "lifespan": "10–12 years"
+    },
+    "example_image": "/images/breeds/golden-retriever.jpg",
+    "faqs": [
+      {
+        "question": "What makes Golden Retrievers great subjects for portraits?",
+        "answer": "Their expressive eyes, gentle demeanor, and beautiful golden coats make them ideal portrait subjects. Their friendly nature means they're often calm during photo sessions."
+      },
+      {
+        "question": "What portrait styles work best for Golden Retrievers?",
+        "answer": "Classic pencil sketches highlight their gentle features, while colour portraits showcase their beautiful golden coat variations. Minimal line art captures their friendly essence."
+      },
+      {
+        "question": "How do I get the best photo of my Golden Retriever?",
+        "answer": "Use natural lighting, get down to their eye level, and capture them in their calm, happy moments. Their expressive eyes are the key to a great portrait."
+      }
+    ]
+  },
+  {
+    "slug": "labrador-retriever",
+    "name": "Labrador Retriever",
+    "category": "dog",
+    "traits": ["outgoing", "active", "trustworthy"],
+    "portrait_styles": ["Watercolour", "Digital Art", "Charcoal Sketch"],
+    "photo_tips": [
+      "Capture their playful energy during outdoor activities.",
+      "Use natural lighting to highlight their glossy coat.",
+      "Focus on their intelligent, alert expression.",
+      "Photograph them with their favourite toys or treats.",
+      "Get action shots during fetch or swimming sessions."
+    ],
+    "overview": {
+      "origin": "Newfoundland, Canada",
+      "temperament": "Outgoing, active, trustworthy",
+      "coat": "Short, dense, water-resistant coat",
+      "size": "55–80 lb",
+      "lifespan": "10–14 years"
+    },
+    "example_image": "/images/breeds/labrador-retriever.jpg",
+    "faqs": [
+      {
+        "question": "Why are Labradors popular portrait subjects?",
+        "answer": "Their friendly faces, intelligent eyes, and glossy coats make them perfect for portraits. Their active nature provides great opportunities for dynamic poses."
+      },
+      {
+        "question": "What colours work best for Labrador portraits?",
+        "answer": "Black, chocolate, and yellow Labs each have unique characteristics. Watercolour works beautifully for their glossy coats, while charcoal captures their strong features."
+      },
+      {
+        "question": "How can I capture my Lab's personality in photos?",
+        "answer": "Photograph them during their favourite activities like swimming or playing fetch. Their joy and energy will shine through in the photos."
+      }
+    ]
+  },
+  {
+    "slug": "german-shepherd",
+    "name": "German Shepherd",
+    "category": "dog",
+    "traits": ["confident", "courageous", "intelligent"],
+    "portrait_styles": ["Realistic Oil", "Bold Line Art", "Monochrome"],
+    "photo_tips": [
+      "Capture their alert, intelligent expression.",
+      "Use side lighting to emphasize their strong profile.",
+      "Photograph them in their working or protective stance.",
+      "Focus on their distinctive ears and noble bearing.",
+      "Use a darker background to make their coat stand out."
+    ],
+    "overview": {
+      "origin": "Germany",
+      "temperament": "Confident, courageous, intelligent",
+      "coat": "Dense double coat, various colours",
+      "size": "50–90 lb",
+      "lifespan": "9–13 years"
+    },
+    "example_image": "/images/breeds/german-shepherd.jpg",
+    "faqs": [
+      {
+        "question": "What makes German Shepherds striking portrait subjects?",
+        "answer": "Their noble bearing, intelligent eyes, and distinctive silhouette make them excellent portrait subjects. Their confident demeanor translates beautifully to art."
+      },
+      {
+        "question": "Which portrait styles suit German Shepherds best?",
+        "answer": "Realistic oil paintings capture their noble features, while bold line art emphasizes their strong silhouette. Monochrome works well for their classic appearance."
+      },
+      {
+        "question": "How do I photograph my German Shepherd's best side?",
+        "answer": "Side profiles showcase their distinctive ears and strong jawline. Capture them in their alert, attentive pose to show their intelligence."
+      }
+    ]
+  },
+  {
+    "slug": "french-bulldog",
+    "name": "French Bulldog",
+    "category": "dog",
+    "traits": ["adaptable", "playful", "affectionate"],
+    "portrait_styles": ["Cartoon Style", "Pop Art", "Minimalist"],
+    "photo_tips": [
+      "Capture their characteristic bat ears and wrinkled face.",
+      "Use soft lighting to avoid harsh shadows on their face.",
+      "Photograph their playful, mischievous expressions.",
+      "Get close-up shots of their expressive eyes.",
+      "Capture them in their favourite sleeping positions."
+    ],
+    "overview": {
+      "origin": "France",
+      "temperament": "Adaptable, playful, affectionate",
+      "coat": "Short, smooth, fine coat",
+      "size": "20–28 lb",
+      "lifespan": "10–12 years"
+    },
+    "example_image": "/images/breeds/french-bulldog.jpg",
+    "faqs": [
+      {
+        "question": "Why are French Bulldogs popular for portraits?",
+        "answer": "Their distinctive bat ears, wrinkled faces, and expressive eyes make them instantly recognizable and charming portrait subjects."
+      },
+      {
+        "question": "What artistic styles work well for Frenchies?",
+        "answer": "Cartoon and pop art styles capture their playful personality, while minimalist approaches highlight their unique features."
+      },
+      {
+        "question": "How do I get the best photo of my French Bulldog?",
+        "answer": "Focus on their expressive eyes and characteristic ears. Soft lighting works best to avoid harsh shadows on their wrinkled face."
+      }
+    ]
+  },
+  {
+    "slug": "persian-cat",
+    "name": "Persian Cat",
+    "category": "cat",
+    "traits": ["gentle", "quiet", "affectionate"],
+    "portrait_styles": ["Classic Portrait", "Watercolour", "Fine Detail"],
+    "photo_tips": [
+      "Capture their luxurious long fur and distinctive flat face.",
+      "Use soft, diffused lighting to avoid harsh shadows.",
+      "Focus on their large, expressive eyes.",
+      "Photograph them in their regal, dignified poses.",
+      "Use a plain background to highlight their beautiful coat."
+    ],
+    "overview": {
+      "origin": "Persia (Iran)",
+      "temperament": "Gentle, quiet, affectionate",
+      "coat": "Long, thick, silky coat",
+      "size": "7–12 lb",
+      "lifespan": "12–17 years"
+    },
+    "example_image": "/images/breeds/persian-cat.jpg",
+    "faqs": [
+      {
+        "question": "What makes Persian cats ideal portrait subjects?",
+        "answer": "Their luxurious long fur, distinctive flat face, and regal bearing make them perfect for elegant portrait styles."
+      },
+      {
+        "question": "Which portrait styles suit Persian cats best?",
+        "answer": "Classic portraits capture their regal nature, while watercolour works beautifully for their flowing fur. Fine detail art showcases their distinctive features."
+      },
+      {
+        "question": "How do I photograph my Persian cat's best features?",
+        "answer": "Focus on their large eyes and luxurious fur. Use soft lighting and plain backgrounds to highlight their elegant appearance."
+      }
+    ]
+  },
+  {
+    "slug": "maine-coon",
+    "name": "Maine Coon",
+    "category": "cat",
+    "traits": ["gentle", "intelligent", "playful"],
+    "portrait_styles": ["Wildlife Art", "Realistic Portrait", "Nature-Inspired"],
+    "photo_tips": [
+      "Capture their large size and tufted ears.",
+      "Photograph their bushy tail and long, flowing fur.",
+      "Use natural lighting to show their beautiful coat patterns.",
+      "Capture their intelligent, alert expression.",
+      "Photograph them in outdoor settings to show their wild heritage."
+    ],
+    "overview": {
+      "origin": "Maine, USA",
+      "temperament": "Gentle, intelligent, playful",
+      "coat": "Long, thick, water-resistant coat",
+      "size": "8–18 lb",
+      "lifespan": "13–14 years"
+    },
+    "example_image": "/images/breeds/maine-coon.jpg",
+    "faqs": [
+      {
+        "question": "Why are Maine Coons great for portraits?",
+        "answer": "Their large size, tufted ears, and wild appearance make them striking subjects. Their intelligent eyes and flowing fur create beautiful portraits."
+      },
+      {
+        "question": "What artistic styles suit Maine Coons?",
+        "answer": "Wildlife art captures their wild heritage, while realistic portraits showcase their distinctive features. Nature-inspired backgrounds complement their appearance."
+      },
+      {
+        "question": "How do I capture my Maine Coon's wild beauty?",
+        "answer": "Photograph them in natural settings, focus on their tufted ears and bushy tail, and capture their intelligent, alert expression."
+      }
+    ]
+  },
+  {
+    "slug": "british-shorthair",
+    "name": "British Shorthair",
+    "category": "cat",
+    "traits": ["calm", "easygoing", "affectionate"],
+    "portrait_styles": ["Classic British Style", "Vintage Portrait", "Formal Portrait"],
+    "photo_tips": [
+      "Capture their round face and large, copper eyes.",
+      "Use soft lighting to highlight their dense, plush coat.",
+      "Photograph their calm, dignified expression.",
+      "Focus on their distinctive round head shape.",
+      "Use a formal setting to match their dignified nature."
+    ],
+    "overview": {
+      "origin": "United Kingdom",
+      "temperament": "Calm, easygoing, affectionate",
+      "coat": "Dense, plush, short coat",
+      "size": "7–17 lb",
+      "lifespan": "12–20 years"
+    },
+    "example_image": "/images/breeds/british-shorthair.jpg",
+    "faqs": [
+      {
+        "question": "What makes British Shorthairs perfect portrait subjects?",
+        "answer": "Their round faces, large copper eyes, and dignified bearing make them ideal for classic portrait styles."
+      },
+      {
+        "question": "Which portrait styles suit British Shorthairs?",
+        "answer": "Classic British style portraits capture their dignified nature, while vintage and formal portraits complement their calm demeanor."
+      },
+      {
+        "question": "How do I photograph my British Shorthair's best features?",
+        "answer": "Focus on their round face and large copper eyes. Use soft lighting and formal settings to match their dignified personality."
+      }
+    ]
+  },
+  {
+    "slug": "ragdoll",
+    "name": "Ragdoll",
+    "category": "cat",
+    "traits": ["docile", "affectionate", "gentle"],
+    "portrait_styles": ["Soft Watercolour", "Gentle Portrait", "Pastel Art"],
+    "photo_tips": [
+      "Capture their striking blue eyes and soft expression.",
+      "Use gentle lighting to match their docile nature.",
+      "Photograph their relaxed, limp poses.",
+      "Focus on their beautiful colourpoint patterns.",
+      "Capture their gentle, trusting expression."
+    ],
+    "overview": {
+      "origin": "California, USA",
+      "temperament": "Docile, affectionate, gentle",
+      "coat": "Semi-long, silky, soft coat",
+      "size": "8–20 lb",
+      "lifespan": "12–17 years"
+    },
+    "example_image": "/images/breeds/ragdoll.jpg",
+    "faqs": [
+      {
+        "question": "Why are Ragdolls ideal for gentle portrait styles?",
+        "answer": "Their docile nature, striking blue eyes, and soft expression make them perfect for gentle, artistic portrait styles."
+      },
+      {
+        "question": "What artistic styles suit Ragdolls best?",
+        "answer": "Soft watercolour and pastel art capture their gentle nature, while gentle portraits showcase their trusting expression."
+      },
+      {
+        "question": "How do I capture my Ragdoll's gentle personality?",
+        "answer": "Focus on their striking blue eyes and soft expression. Use gentle lighting and capture their relaxed, trusting poses."
+      }
+    ]
+  },
+  {
+    "slug": "border-collie",
+    "name": "Border Collie",
+    "category": "dog",
+    "traits": ["intelligent", "energetic", "work-focused"],
+    "portrait_styles": ["Action Art", "Working Dog Portrait", "Dynamic Sketch"],
+    "photo_tips": [
+      "Capture their intense, focused expression.",
+      "Photograph them in action during herding or agility.",
+      "Use natural lighting to show their beautiful coat patterns.",
+      "Focus on their intelligent, alert eyes.",
+      "Capture their athletic build and working stance."
+    ],
+    "overview": {
+      "origin": "Border region between England and Scotland",
+      "temperament": "Intelligent, energetic, work-focused",
+      "coat": "Medium-length, dense double coat",
+      "size": "30–55 lb",
+      "lifespan": "12–15 years"
+    },
+    "example_image": "/images/breeds/border-collie.jpg",
+    "faqs": [
+      {
+        "question": "What makes Border Collies great action portrait subjects?",
+        "answer": "Their intense focus, athletic build, and working heritage make them perfect for dynamic, action-oriented portrait styles."
+      },
+      {
+        "question": "Which portrait styles suit Border Collies?",
+        "answer": "Action art captures their energy, while working dog portraits showcase their intelligence and focus."
+      },
+      {
+        "question": "How do I photograph my Border Collie's working nature?",
+        "answer": "Capture them during herding or agility work, focus on their intense expression, and photograph their athletic stance."
+      }
+    ]
+  },
+  {
+    "slug": "siberian-husky",
+    "name": "Siberian Husky",
+    "category": "dog",
+    "traits": ["independent", "energetic", "friendly"],
+    "portrait_styles": ["Wilderness Art", "Arctic Portrait", "Bold Colours"],
+    "photo_tips": [
+      "Capture their striking blue or multi-coloured eyes.",
+      "Photograph their thick, plush coat and wolf-like appearance.",
+      "Use natural lighting to show their beautiful markings.",
+      "Capture their independent, alert expression.",
+      "Photograph them in winter settings to show their heritage."
+    ],
+    "overview": {
+      "origin": "Siberia",
+      "temperament": "Independent, energetic, friendly",
+      "coat": "Thick, plush double coat",
+      "size": "35–60 lb",
+      "lifespan": "12–14 years"
+    },
+    "example_image": "/images/breeds/siberian-husky.jpg",
+    "faqs": [
+      {
+        "question": "What makes Huskies striking portrait subjects?",
+        "answer": "Their striking eyes, wolf-like appearance, and thick coat make them dramatic and beautiful portrait subjects."
+      },
+      {
+        "question": "Which portrait styles suit Siberian Huskies?",
+        "answer": "Wilderness and arctic-themed art captures their heritage, while bold colours showcase their striking markings."
+      },
+      {
+        "question": "How do I capture my Husky's wild beauty?",
+        "answer": "Focus on their striking eyes and wolf-like features. Use natural lighting and consider winter settings to show their arctic heritage."
+      }
+    ]
+  }
+]

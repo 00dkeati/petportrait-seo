@@ -1,0 +1,267 @@
+[
+  {
+    "slug": "gifts-for-golden-retriever-owners",
+    "title": "Gifts for Golden Retriever Owners",
+    "breed": "Golden Retriever",
+    "category": "dog",
+    "ideas": [
+      {
+        "title": "Custom Golden Retriever Portrait",
+        "type": "Art & Portraits",
+        "description": "A beautiful custom portrait capturing their gentle nature",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Golden Retriever Photo Book",
+        "type": "Photography",
+        "description": "Create a memory book of their favourite photos",
+        "price_range": "£25-£60",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Engraved Dog Tag",
+        "type": "Accessories",
+        "description": "Personalised tag with their name and your contact info",
+        "price_range": "£8-£20",
+        "cta_url": "#"
+      },
+      {
+        "title": "Golden Retriever Calendar",
+        "type": "Home Decor",
+        "description": "12 months of beautiful Golden Retriever photos",
+        "price_range": "£12-£25",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate another year of love and loyalty",
+        "gift_suggestions": ["Custom Portrait", "Photo Book", "Engraved Tag"]
+      },
+      {
+        "name": "Gotcha Day",
+        "description": "Anniversary of bringing them home",
+        "gift_suggestions": ["Custom Portrait", "Memory Book", "Calendar"]
+      },
+      {
+        "name": "Christmas",
+        "description": "Holiday gifts for the whole family",
+        "gift_suggestions": ["Custom Portrait", "Calendar", "Engraved Tag"]
+      }
+    ]
+  },
+  {
+    "slug": "gifts-for-labrador-owners",
+    "title": "Gifts for Labrador Owners",
+    "breed": "Labrador Retriever",
+    "category": "dog",
+    "ideas": [
+      {
+        "title": "Custom Labrador Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their playful energy and glossy coat",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Action Photo Collection",
+        "type": "Photography",
+        "description": "Professional photos of their favourite activities",
+        "price_range": "£30-£80",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Waterproof Dog Tag",
+        "type": "Accessories",
+        "description": "Perfect for their love of swimming",
+        "price_range": "£10-£25",
+        "cta_url": "#"
+      },
+      {
+        "title": "Labrador Art Print",
+        "type": "Home Decor",
+        "description": "Beautiful wall art celebrating their breed",
+        "price_range": "£15-£35",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate their playful spirit",
+        "gift_suggestions": ["Custom Portrait", "Action Photos", "Art Print"]
+      },
+      {
+        "name": "Adoption Anniversary",
+        "description": "Mark the day they joined your family",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Waterproof Tag"]
+      },
+      {
+        "name": "Holiday Season",
+        "description": "Gifts for the whole family",
+        "gift_suggestions": ["Custom Portrait", "Art Print", "Waterproof Tag"]
+      }
+    ]
+  },
+  {
+    "slug": "gifts-for-cat-lovers",
+    "title": "Gifts for Cat Lovers",
+    "breed": "All Cat Breeds",
+    "category": "cat",
+    "ideas": [
+      {
+        "title": "Custom Cat Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their unique personality and beauty",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Cat Photo Session",
+        "type": "Photography",
+        "description": "Professional photos showcasing their elegance",
+        "price_range": "£40-£100",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Personalised Cat Mug",
+        "type": "Home Decor",
+        "description": "Morning coffee with their face on it",
+        "price_range": "£12-£25",
+        "cta_url": "#"
+      },
+      {
+        "title": "Cat Art Collection",
+        "type": "Home Decor",
+        "description": "Beautiful prints celebrating feline beauty",
+        "price_range": "£20-£50",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Cat's Birthday",
+        "description": "Celebrate their special day",
+        "gift_suggestions": ["Custom Portrait", "Photo Session", "Personalised Mug"]
+      },
+      {
+        "name": "Adoption Day",
+        "description": "Anniversary of finding each other",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Art Print"]
+      },
+      {
+        "name": "Holiday Gifts",
+        "description": "Perfect presents for cat lovers",
+        "gift_suggestions": ["Custom Portrait", "Art Collection", "Personalised Mug"]
+      }
+    ]
+  },
+  {
+    "slug": "gifts-for-german-shepherd-owners",
+    "title": "Gifts for German Shepherd Owners",
+    "breed": "German Shepherd",
+    "category": "dog",
+    "ideas": [
+      {
+        "title": "Custom German Shepherd Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their noble bearing and intelligence",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Working Dog Photo Series",
+        "type": "Photography",
+        "description": "Professional photos of their protective nature",
+        "price_range": "£35-£85",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Military-Style Dog Tag",
+        "type": "Accessories",
+        "description": "Durable tag matching their strong character",
+        "price_range": "£12-£30",
+        "cta_url": "#"
+      },
+      {
+        "title": "German Shepherd Wall Art",
+        "type": "Home Decor",
+        "description": "Noble portraits for proud owners",
+        "price_range": "£18-£40",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate their loyal service",
+        "gift_suggestions": ["Custom Portrait", "Working Photos", "Military Tag"]
+      },
+      {
+        "name": "Training Completion",
+        "description": "Mark their achievements",
+        "gift_suggestions": ["Custom Portrait", "Photo Series", "Wall Art"]
+      },
+      {
+        "name": "Holiday Season",
+        "description": "Gifts for the protective family member",
+        "gift_suggestions": ["Custom Portrait", "Wall Art", "Military Tag"]
+      }
+    ]
+  },
+  {
+    "slug": "gifts-for-french-bulldog-owners",
+    "title": "Gifts for French Bulldog Owners",
+    "breed": "French Bulldog",
+    "category": "dog",
+    "ideas": [
+      {
+        "title": "Custom French Bulldog Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their adorable bat ears and personality",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Frenchie Photo Collection",
+        "type": "Photography",
+        "description": "Cute photos showcasing their unique features",
+        "price_range": "£25-£65",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Designer Dog Collar",
+        "type": "Accessories",
+        "description": "Stylish collar matching their personality",
+        "price_range": "£15-£35",
+        "cta_url": "#"
+      },
+      {
+        "title": "French Bulldog Art Print",
+        "type": "Home Decor",
+        "description": "Adorable wall art for Frenchie lovers",
+        "price_range": "£12-£28",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate their adorable personality",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Designer Collar"]
+      },
+      {
+        "name": "Gotcha Day",
+        "description": "Anniversary of bringing them home",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Art Print"]
+      },
+      {
+        "name": "Holiday Season",
+        "description": "Perfect gifts for Frenchie families",
+        "gift_suggestions": ["Custom Portrait", "Art Print", "Designer Collar"]
+      }
+    ]
+  }
+]
