@@ -130,11 +130,12 @@ export default function HomePage() {
                   href={`/breeds/${breed.slug}`}
                   className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                 >
-                  <div className="aspect-video relative">
+                  <div className="relative" style={{height: '200px'}}>
                     <img 
                       src={breed.example_image} 
                       alt={`${breed.name} portrait example`}
                       className="w-full h-full object-cover"
+                      style={{minHeight: '200px'}}
                     />
                   </div>
                   <div className="p-6">
@@ -262,11 +263,12 @@ export default function HomePage() {
                   href={`/gifts/${gift.slug}`}
                   className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                 >
-                  <div className="aspect-video relative">
+                  <div className="relative" style={{height: '200px'}}>
                     <img 
                       src={`/images/gift-guides/${gift.slug}.jpg`} 
                       alt={`${gift.title} gift ideas`}
                       className="w-full h-full object-cover"
+                      style={{minHeight: '200px'}}
                     />
                   </div>
                   <div className="p-6">
