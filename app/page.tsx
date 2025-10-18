@@ -231,10 +231,10 @@ export default function HomePage() {
               
               <div className="text-center">
                 <a
-                  href="https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=homepage"
+                  href="https://familyportraitcompany.com/products/pet-portrait?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=homepage-recommendation"
                   className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-lg"
                 >
-                  View Portrait Examples
+                  Order Your Portrait - £6
                   <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
@@ -312,6 +312,47 @@ export default function HomePage() {
               </svg>
             </Link>
     </div>
+        </section>
+
+        {/* Pencil Portrait CTA Section */}
+        <section className="py-16 px-4 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-4">
+              Black & White Pencil Pet Portraits
+            </h2>
+            <p className="text-xl mb-6 text-gray-200">
+              Timeless, elegant portraits that capture your pet's personality in stunning detail
+            </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-8">
+              <div className="flex items-center justify-center space-x-8 mb-4">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-green-400">£6</div>
+                  <div className="text-sm text-gray-300">Usually £29.99</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold">3-5 Days</div>
+                  <div className="text-sm text-gray-300">Digital Delivery</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold">1436+</div>
+                  <div className="text-sm text-gray-300">5-Star Reviews</div>
+                </div>
+              </div>
+              <p className="text-gray-200 mb-6">
+                Hand-crafted using advanced AI to capture your pet's unique personality. 
+                Perfect for printing at home or gifting to a loved one.
+              </p>
+              <Link 
+                href="https://familyportraitcompany.com/products/pet-portrait?utm_source=petportrait.co&utm_medium=homepage&utm_campaign=pencil-portrait-hero"
+                className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-lg"
+              >
+                Order Your Pencil Portrait - £6
+                <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </Link>
+            </div>
+          </div>
         </section>
 
         {/* SEO Landing Pages */}

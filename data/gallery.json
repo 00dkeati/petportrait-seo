@@ -76,5 +76,31 @@
       "800": "/images/gallery/border-collie-watercolor-800.webp",
       "1200": "/images/gallery/border-collie-watercolor-1200.webp"
     }
+  },
+  {
+    "id": "gallery-7",
+    "alt": "Black and white pencil portrait of a Golden Retriever",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/golden-retriever-pencil.jpg",
+    "src": "/images/gallery/golden-retriever-pencil-800.webp",
+    "width": 600,
+    "height": 800,
+    "variants": {
+      "400": "/images/gallery/golden-retriever-pencil-400.webp",
+      "800": "/images/gallery/golden-retriever-pencil-800.webp",
+      "1200": "/images/gallery/golden-retriever-pencil-1200.webp"
+    }
+  },
+  {
+    "id": "gallery-8",
+    "alt": "Pencil sketch portrait of a cat",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/cat-pencil-sketch.jpg",
+    "src": "/images/gallery/cat-pencil-sketch-800.webp",
+    "width": 600,
+    "height": 800,
+    "variants": {
+      "400": "/images/gallery/cat-pencil-sketch-400.webp",
+      "800": "/images/gallery/cat-pencil-sketch-800.webp",
+      "1200": "/images/gallery/cat-pencil-sketch-1200.webp"
+    }
   }
 ]

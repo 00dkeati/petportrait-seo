@@ -18,7 +18,7 @@ export function getCopy(keyword: string) {
 
   const sectionHtml = `<p>Our team specialises in thoughtful, tasteful pet art across classic pencil, vibrant watercolor, and soft pastel looks. Whether you need a birthday surprise, a memorial portrait, or a centrepiece for your hallway, we'll help you get it right. Every piece is designed to feel personal—true to markings, fur texture, and expression. If you're exploring ${keyword}, you'll find our process simple: upload a photo, confirm details, and we'll take care of the rest. Many customers also ask about framing and print options; we offer guidance so your custom pet art fits your space perfectly.</p><p>Looking for ideas? Dog lovers often choose a clean, gallery-ready composition while cat owners prefer a cosy, close-up style. You can keep it timeless in monochrome or add a splash of colour for extra character. However you choose to style your portrait, we'll ensure the finished piece feels like them—because that's what matters most.</p>`;
 
-  const ctaHtml = `<p>Ready to begin? Upload a photo now and we'll start crafting a beautiful portrait you'll love. It only takes a minute to get started.</p>`;
+  const ctaHtml = `<p>Ready to begin? Upload a photo now and we'll start crafting a beautiful portrait you'll love. It only takes a minute to get started.</p><p><strong>Special Offer:</strong> Get your custom digital pet portrait for just £6 (usually £29.99) - delivered to your inbox in 3-5 days!</p>`;
 
   const faqs: FAQ[] = [
     {

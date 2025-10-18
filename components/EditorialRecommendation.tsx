@@ -59,10 +59,10 @@ export default function EditorialRecommendation({ breed }: EditorialRecommendati
           
           <div className="text-center">
             <a
-              href={`https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=recommendation&utm_content=${breed.slug}`}
+              href={`https://familyportraitcompany.com/products/pet-portrait?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=breed-recommendation&utm_content=${breed.slug}`}
               className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-lg"
             >
-              View {breed.name} Portrait Examples
+              Order {breed.name} Portrait - £6
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>

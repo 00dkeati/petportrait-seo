@@ -109,10 +109,10 @@ export default function Page({ params }: { params: { slug: string } }) {
         <h2 className="text-2xl font-semibold mb-4 mt-12">Order Your Portrait</h2>
         <div dangerouslySetInnerHTML={{ __html: copy.ctaHtml }} className="mb-4" />
         <Link 
-          href="https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=seo-landing&utm_campaign=order-cta" 
+          href="https://familyportraitcompany.com/products/pet-portrait?utm_source=petportrait.co&utm_medium=seo-landing&utm_campaign=pencil-portrait-cta" 
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
         >
-          Start your order
+          Order Your Pet Portrait - £6
         </Link>
 
         <div className="mt-12 pt-8 border-t">
