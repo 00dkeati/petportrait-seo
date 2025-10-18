@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "scrape:images": "node scripts/scrape-images.cjs",
-    "build:gallery": "node scripts/build-gallery.cjs"
+    "build:gallery": "node scripts/build-gallery.cjs",
+    "build:keywords": "node scripts/build-keyword-pages.mjs"
   },
   "dependencies": {
     "cheerio": "^1.1.2",

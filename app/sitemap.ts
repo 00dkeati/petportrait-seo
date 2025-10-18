@@ -1,53 +1,18 @@
-import { MetadataRoute } from 'next';
-import breedsData from '@/data/breeds.json';
-import giftIdeasData from '@/data/gift_ideas.json';
-import { seoKeywords } from '../data/seoKeywords';
-import { slugify } from '../lib/slugify';
-
-export const dynamic = 'force-static';
+import type { MetadataRoute } from "next";
+import data from "../data/keyword-slugs.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://petportrait.co';
-  
-  // Static pages
-  const staticPages = [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/services/best-pet-portrait-sites-uk`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
+  const base = "https://petportrait.co";
+  const now = new Date().toISOString();
+  const items = (data as Array<{slug:string}>).map(k => ({
+    url: base + "/k/" + k.slug,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.6
+  }));
+  return [
+    { url: base + "/", lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: base + "/k", lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    ...items
   ];
-
-  // Breed pages
-  const breedPages = breedsData.map((breed: { slug: string }) => ({
-    url: `${baseUrl}/breeds/${breed.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.9,
-  }));
-
-  // SEO landing pages
-  const seoLandingPages = seoKeywords.map((keyword) => ({
-    url: `${baseUrl}/${slugify(keyword)}`,
-    lastModified: new Date(),
-    changeFrequency: 'daily' as const,
-    priority: 0.8,
-  }));
-
-  // Gift pages
-  const giftPages = giftIdeasData.map((gift: { slug: string }) => ({
-    url: `${baseUrl}/gifts/${gift.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }));
-
-  return [...staticPages, ...seoLandingPages, ...breedPages, ...giftPages];
 }
