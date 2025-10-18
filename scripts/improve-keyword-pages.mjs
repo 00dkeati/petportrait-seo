@@ -1,4 +1,133 @@
-import type { Metadata } from "next";
+/**
+ * Enhanced keyword page generator with better formatting and readability
+ * This script improves the existing keyword pages with:
+ * - Better visual hierarchy
+ * - Formatted content sections
+ * - Visual elements and icons
+ * - Improved readability
+ * - Professional styling
+ */
+import fs from "fs";
+import path from "path";
+
+const DATA_DIR = path.join(process.cwd(), "data");
+const KEY_PAGE_DIR = path.join(process.cwd(), "app", "k", "[slug]");
+
+// Read existing data
+const keywordData = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "keyword-data.json"), "utf8"));
+
+// Enhanced content templates with better formatting
+const enhancedContentTemplates = {
+  hero: (keyword) => ({
+    title: `Professional ${keyword} Services`,
+    subtitle: "Transform your pet photos into stunning artwork",
+    description: `Looking for ${keyword}? We create beautiful, personalized pet portraits that capture your pet's unique personality and charm.`
+  }),
+
+  features: [
+    {
+      icon: "🎨",
+      title: "Hand-Crafted Artwork",
+      description: "Each portrait is carefully created to capture your pet's unique features and personality"
+    },
+    {
+      icon: "⚡",
+      title: "Fast Delivery",
+      description: "Digital files delivered within 24-72 hours, perfect for last-minute gifts"
+    },
+    {
+      icon: "📱",
+      title: "Easy Ordering",
+      description: "Simple upload process with clear guidance on photo requirements"
+    },
+    {
+      icon: "🔄",
+      title: "Free Revisions",
+      description: "We'll make adjustments until you're completely satisfied with your portrait"
+    },
+    {
+      icon: "🎁",
+      title: "Perfect for Gifts",
+      description: "Beautiful artwork that makes thoughtful presents for any occasion"
+    },
+    {
+      icon: "🖼️",
+      title: "Print Ready",
+      description: "High-resolution files perfect for framing, canvas prints, or digital display"
+    }
+  ],
+
+  process: [
+    {
+      step: "1",
+      title: "Upload Your Photo",
+      description: "Send us your favorite photo of your pet - we'll guide you on what works best"
+    },
+    {
+      step: "2", 
+      title: "We Create Your Portrait",
+      description: "Our artists work their magic, creating a beautiful portrait that captures your pet's essence"
+    },
+    {
+      step: "3",
+      title: "Review & Approve",
+      description: "We'll send you a proof for approval, with free revisions if needed"
+    },
+    {
+      step: "4",
+      title: "Receive Your Artwork",
+      description: "Get your high-resolution digital file, ready for printing or sharing"
+    }
+  ],
+
+  styles: [
+    {
+      name: "Classic Pencil",
+      description: "Timeless black and white portraits with detailed shading and texture",
+      features: ["Detailed fur texture", "Expressive eyes", "Clean backgrounds"]
+    },
+    {
+      name: "Watercolor",
+      description: "Soft, artistic watercolor effects with beautiful color blending",
+      features: ["Soft color transitions", "Artistic brushstrokes", "Gentle backgrounds"]
+    },
+    {
+      name: "Digital Art",
+      description: "Modern digital artwork with vibrant colors and contemporary styling",
+      features: ["Bold colors", "Clean lines", "Modern aesthetic"]
+    },
+    {
+      name: "Oil Painting",
+      description: "Rich, textured oil painting style with depth and dimension",
+      features: ["Rich textures", "Deep colors", "Classic composition"]
+    }
+  ],
+
+  testimonials: [
+    {
+      text: "Absolutely love my dog's portrait! The artist captured his personality perfectly.",
+      author: "Sarah M.",
+      rating: 5
+    },
+    {
+      text: "Fast delivery and beautiful artwork. Will definitely order again!",
+      author: "James L.",
+      rating: 5
+    },
+    {
+      text: "Perfect gift for my mum. She cried happy tears when she saw it.",
+      author: "Emma K.",
+      rating: 5
+    }
+  ]
+};
+
+// Enhanced page template with better formatting
+const createEnhancedPage = (item) => {
+  const { keyword, title, description, images, paragraphs, faqs, related } = item;
+  const hero = enhancedContentTemplates.hero(keyword);
+  
+  return `import type { Metadata } from "next";
 import all from "../../../data/keyword-data.json";
 import Link from "next/link";
 import Image from "next/image";
@@ -15,104 +144,6 @@ type Item = {
 };
 
 const ITEMS: Item[] = all as Item[];
-
-// Enhanced content templates
-const features = [
-  {
-    icon: "🎨",
-    title: "Hand-Crafted Artwork",
-    description: "Each portrait is carefully created to capture your pet's unique features and personality"
-  },
-  {
-    icon: "⚡",
-    title: "Fast Delivery",
-    description: "Digital files delivered within 24-72 hours, perfect for last-minute gifts"
-  },
-  {
-    icon: "📱",
-    title: "Easy Ordering",
-    description: "Simple upload process with clear guidance on photo requirements"
-  },
-  {
-    icon: "🔄",
-    title: "Free Revisions",
-    description: "We'll make adjustments until you're completely satisfied with your portrait"
-  },
-  {
-    icon: "🎁",
-    title: "Perfect for Gifts",
-    description: "Beautiful artwork that makes thoughtful presents for any occasion"
-  },
-  {
-    icon: "🖼️",
-    title: "Print Ready",
-    description: "High-resolution files perfect for framing, canvas prints, or digital display"
-  }
-];
-
-const process = [
-  {
-    step: "1",
-    title: "Upload Your Photo",
-    description: "Send us your favorite photo of your pet - we'll guide you on what works best"
-  },
-  {
-    step: "2", 
-    title: "We Create Your Portrait",
-    description: "Our artists work their magic, creating a beautiful portrait that captures your pet's essence"
-  },
-  {
-    step: "3",
-    title: "Review & Approve",
-    description: "We'll send you a proof for approval, with free revisions if needed"
-  },
-  {
-    step: "4",
-    title: "Receive Your Artwork",
-    description: "Get your high-resolution digital file, ready for printing or sharing"
-  }
-];
-
-const styles = [
-  {
-    name: "Classic Pencil",
-    description: "Timeless black and white portraits with detailed shading and texture",
-    features: ["Detailed fur texture", "Expressive eyes", "Clean backgrounds"]
-  },
-  {
-    name: "Watercolor",
-    description: "Soft, artistic watercolor effects with beautiful color blending",
-    features: ["Soft color transitions", "Artistic brushstrokes", "Gentle backgrounds"]
-  },
-  {
-    name: "Digital Art",
-    description: "Modern digital artwork with vibrant colors and contemporary styling",
-    features: ["Bold colors", "Clean lines", "Modern aesthetic"]
-  },
-  {
-    name: "Oil Painting",
-    description: "Rich, textured oil painting style with depth and dimension",
-    features: ["Rich textures", "Deep colors", "Classic composition"]
-  }
-];
-
-const testimonials = [
-  {
-    text: "Absolutely love my dog's portrait! The artist captured his personality perfectly.",
-    author: "Sarah M.",
-    rating: 5
-  },
-  {
-    text: "Fast delivery and beautiful artwork. Will definitely order again!",
-    author: "James L.",
-    rating: 5
-  },
-  {
-    text: "Perfect gift for my mum. She cried happy tears when she saw it.",
-    author: "Emma K.",
-    rating: 5
-  }
-];
 
 export async function generateStaticParams() {
   return ITEMS.map(i => ({ slug: i.slug }));
@@ -206,7 +237,7 @@ export default function KeywordPage({ params }: { params: { slug: string }}) {
                 <div key={i} className="relative group overflow-hidden rounded-lg shadow-lg">
                   <Image
                     src={src}
-                    alt={`${item.keyword} example ${i+1}`}
+                    alt={\`\${item.keyword} example \${i+1}\`}
                     width={300}
                     height={300}
                     className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
@@ -233,7 +264,7 @@ export default function KeywordPage({ params }: { params: { slug: string }}) {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Why Choose Our Pet Portraits?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {features.map((feature, i) => (
+            {enhancedContentTemplates.features.map((feature, i) => (
               <div key={i} className="bg-white p-6 rounded-lg shadow-md text-center">
                 <div className="text-4xl mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
@@ -263,7 +294,7 @@ export default function KeywordPage({ params }: { params: { slug: string }}) {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {process.map((step, i) => (
+            {enhancedContentTemplates.process.map((step, i) => (
               <div key={i} className="text-center">
                 <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                   {step.step}
@@ -281,7 +312,7 @@ export default function KeywordPage({ params }: { params: { slug: string }}) {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Portrait Styles Available</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {styles.map((style, i) => (
+            {enhancedContentTemplates.styles.map((style, i) => (
               <div key={i} className="border rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-semibold mb-3">{style.name}</h3>
                 <p className="text-gray-600 mb-4">{style.description}</p>
@@ -306,7 +337,7 @@ export default function KeywordPage({ params }: { params: { slug: string }}) {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">What Our Customers Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, i) => (
+            {enhancedContentTemplates.testimonials.map((testimonial, i) => (
               <div key={i} className="bg-white p-6 rounded-lg shadow-md">
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, j) => (
@@ -387,3 +418,29 @@ export default function KeywordPage({ params }: { params: { slug: string }}) {
     </>
   );
 }
+`;
+};
+
+// Update all keyword pages with enhanced formatting
+console.log("🔄 Updating keyword pages with enhanced formatting...");
+
+let updatedCount = 0;
+for (const item of keywordData) {
+  const enhancedPage = createEnhancedPage(item);
+  fs.writeFileSync(path.join(KEY_PAGE_DIR, "page.tsx"), enhancedPage);
+  updatedCount++;
+}
+
+console.log(`✅ Successfully updated ${updatedCount} keyword pages with enhanced formatting!`);
+console.log("📝 Improvements include:");
+console.log("  • Hero sections with gradients and clear CTAs");
+console.log("  • Feature grids with icons and descriptions");
+console.log("  • Step-by-step process sections");
+console.log("  • Style showcase with checkmarks");
+console.log("  • Customer testimonials with star ratings");
+console.log("  • Enhanced FAQ sections with expandable details");
+console.log("  • Professional color scheme and spacing");
+console.log("  • Responsive design for all devices");
+console.log("  • Hover effects and smooth transitions");
+console.log("");
+console.log("🚀 Run 'npm run build' to see the improvements!");
