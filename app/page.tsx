@@ -339,7 +339,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-gray-200 mb-6">
-                Hand-crafted using advanced AI to capture your pet's unique personality. 
+                Hand-crafted to capture your pet's unique personality. 
                 Perfect for printing at home or gifting to a loved one.
               </p>
               <Link 
