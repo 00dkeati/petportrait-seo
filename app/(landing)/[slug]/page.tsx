@@ -5,6 +5,8 @@ import { slugify } from "../../../lib/slugify";
 import { getKeywordFromSlug } from "../../../lib/keywordMap";
 import { getCopy } from "../../../lib/content";
 import SeoJsonLd from "../../../components/SeoJsonLd";
+import Gallery from "../../../components/Gallery";
+import galleryData from "../../../data/gallery.json";
 
 export const dynamicParams = false;
 
@@ -98,7 +100,13 @@ export default function Page({ params }: { params: { slug: string } }) {
           ))}
         </div>
 
-        <h2 className="text-2xl font-semibold mb-4">Order Your Portrait</h2>
+        <h2 className="text-2xl font-semibold mb-4">Recent Pet Portraits</h2>
+        <p className="text-gray-600 mb-6">
+          Explore a few of our favourite recent pieces from real customer photos.
+        </p>
+        <Gallery images={galleryData} initialLoad={6} loadMoreCount={6} />
+
+        <h2 className="text-2xl font-semibold mb-4 mt-12">Order Your Portrait</h2>
         <div dangerouslySetInnerHTML={{ __html: copy.ctaHtml }} className="mb-4" />
         <Link 
           href="https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=seo-landing&utm_campaign=order-cta" 

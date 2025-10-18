@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gallery-1",
+    "alt": "Golden Retriever portrait in watercolor style",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/golden-retriever-watercolor.jpg",
+    "src": "/images/gallery/golden-retriever-watercolor-800.webp",
+    "width": 800,
+    "height": 600,
+    "variants": {
+      "400": "/images/gallery/golden-retriever-watercolor-400.webp",
+      "800": "/images/gallery/golden-retriever-watercolor-800.webp",
+      "1200": "/images/gallery/golden-retriever-watercolor-1200.webp"
+    }
+  },
+  {
+    "id": "gallery-2",
+    "alt": "Labrador Retriever pencil sketch portrait",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/labrador-pencil-sketch.jpg",
+    "src": "/images/gallery/labrador-pencil-sketch-800.webp",
+    "width": 800,
+    "height": 1000,
+    "variants": {
+      "400": "/images/gallery/labrador-pencil-sketch-400.webp",
+      "800": "/images/gallery/labrador-pencil-sketch-800.webp",
+      "1200": "/images/gallery/labrador-pencil-sketch-1200.webp"
+    }
+  },
+  {
+    "id": "gallery-3",
+    "alt": "Cat portrait in pastel colors",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/cat-pastel-portrait.jpg",
+    "src": "/images/gallery/cat-pastel-portrait-800.webp",
+    "width": 600,
+    "height": 800,
+    "variants": {
+      "400": "/images/gallery/cat-pastel-portrait-400.webp",
+      "800": "/images/gallery/cat-pastel-portrait-800.webp",
+      "1200": "/images/gallery/cat-pastel-portrait-1200.webp"
+    }
+  },
+  {
+    "id": "gallery-4",
+    "alt": "German Shepherd digital art portrait",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/german-shepherd-digital.jpg",
+    "src": "/images/gallery/german-shepherd-digital-800.webp",
+    "width": 800,
+    "height": 600,
+    "variants": {
+      "400": "/images/gallery/german-shepherd-digital-400.webp",
+      "800": "/images/gallery/german-shepherd-digital-800.webp",
+      "1200": "/images/gallery/german-shepherd-digital-1200.webp"
+    }
+  },
+  {
+    "id": "gallery-5",
+    "alt": "French Bulldog charcoal drawing",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/french-bulldog-charcoal.jpg",
+    "src": "/images/gallery/french-bulldog-charcoal-800.webp",
+    "width": 600,
+    "height": 800,
+    "variants": {
+      "400": "/images/gallery/french-bulldog-charcoal-400.webp",
+      "800": "/images/gallery/french-bulldog-charcoal-800.webp",
+      "1200": "/images/gallery/french-bulldog-charcoal-1200.webp"
+    }
+  },
+  {
+    "id": "gallery-6",
+    "alt": "Border Collie watercolor portrait",
+    "original": "https://familyportraitcompany.com/cdn/shop/files/border-collie-watercolor.jpg",
+    "src": "/images/gallery/border-collie-watercolor-800.webp",
+    "width": 800,
+    "height": 600,
+    "variants": {
+      "400": "/images/gallery/border-collie-watercolor-400.webp",
+      "800": "/images/gallery/border-collie-watercolor-800.webp",
+      "1200": "/images/gallery/border-collie-watercolor-1200.webp"
+    }
+  }
+]
