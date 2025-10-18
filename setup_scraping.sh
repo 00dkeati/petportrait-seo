@@ -52,3 +52,4 @@ echo "1. Review the scraped images in public/images/"
 echo "2. Run: git add . && git commit -m 'Added scraped pet images'"
 echo "3. Run: git push origin main"
 echo "4. Check your live site for the new images!"
+

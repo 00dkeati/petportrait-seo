@@ -73,3 +73,4 @@ echo "- DALL-E 3 for realistic pet portraits"
 echo "- Midjourney for artistic styles"
 echo "- Stable Diffusion for custom breeds"
 echo "- Or download examples from The Family Portrait Company"
+

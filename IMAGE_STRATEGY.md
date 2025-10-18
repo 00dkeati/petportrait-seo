@@ -85,3 +85,4 @@ public/images/
 3. Update data files
 4. Push changes to GitHub
 5. Redeploy on Vercel
+

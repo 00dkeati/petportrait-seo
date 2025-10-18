@@ -31,3 +31,4 @@ echo "💰 Styles available: £6-£9 range"
 echo "⚡ Fast digital delivery"
 
 echo "✅ Ready to add real images!"
+

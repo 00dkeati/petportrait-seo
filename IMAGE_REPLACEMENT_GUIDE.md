@@ -124,3 +124,4 @@ git push origin main
 - ✅ Alt text for accessibility
 
 **The site is ready for real images! Just replace the SVG placeholders with actual portraits from The Family Portrait Company.**
+

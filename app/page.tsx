@@ -4,6 +4,8 @@ import { Breed } from '@/types/breed';
 import { GiftGuide } from '@/types/gift';
 import breedsData from '@/data/breeds.json';
 import giftIdeasData from '@/data/gift_ideas.json';
+import { seoKeywords } from '../data/seoKeywords';
+import { slugify } from '../lib/slugify';
 
 export const metadata: Metadata = {
   title: 'Pet Portrait Guide - Custom Pet Portraits & Breed Guides | PetPortrait.co',
@@ -38,6 +40,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const featuredBreeds = breedsData.slice(0, 6) as Breed[];
   const featuredGifts = giftIdeasData.slice(0, 3) as GiftGuide[];
+  const topSeoPages = seoKeywords.slice(0, 8);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -309,6 +312,43 @@ export default function HomePage() {
               </svg>
             </Link>
     </div>
+        </section>
+
+        {/* SEO Landing Pages */}
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Popular Pet Portrait Topics
+              </h2>
+              <p className="text-lg text-gray-600">
+                Explore our comprehensive guides on pet portraits and custom artwork
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {topSeoPages.map((keyword) => (
+                <Link
+                  key={keyword}
+                  href={`/${slugify(keyword)}`}
+                  className="group bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                >
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                    {keyword}
+                  </h3>
+                  <p className="text-sm text-gray-600">
+                    Complete guide to {keyword.toLowerCase()}
+                  </p>
+                  <div className="mt-4 flex items-center text-blue-600 text-sm font-medium">
+                    Read Guide
+                    <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
         </section>
       </main>
     </>

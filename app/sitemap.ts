@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import breedsData from '@/data/breeds.json';
 import giftIdeasData from '@/data/gift_ideas.json';
+import { seoKeywords } from '../data/seoKeywords';
+import { slugify } from '../lib/slugify';
 
 export const dynamic = 'force-static';
 
@@ -31,6 +33,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  // SEO landing pages
+  const seoLandingPages = seoKeywords.map((keyword) => ({
+    url: `${baseUrl}/${slugify(keyword)}`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 0.8,
+  }));
+
   // Gift pages
   const giftPages = giftIdeasData.map((gift: { slug: string }) => ({
     url: `${baseUrl}/gifts/${gift.slug}`,
@@ -39,5 +49,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...breedPages, ...giftPages];
+  return [...staticPages, ...seoLandingPages, ...breedPages, ...giftPages];
 }

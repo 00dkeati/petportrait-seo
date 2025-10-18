@@ -130,3 +130,4 @@ git push origin main
 All 20 placeholder images are now working JPG files that display correctly on your site. You can replace them one by one with AI-generated portraits, or all at once.
 
 **Your site is ready for beautiful AI-generated pet portraits!** 🚀
+

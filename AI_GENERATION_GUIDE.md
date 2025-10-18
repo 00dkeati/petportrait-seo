@@ -121,3 +121,4 @@ python3 generate_ai_portraits.py
 - **Batch Processing**: Generate multiple variations
 
 **Ready to create professional pet portraits with AI!** 🚀
+

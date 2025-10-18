@@ -67,3 +67,4 @@ download_working_image 800 450 "gift-guides/gifts-for-french-bulldog-owners.jpg"
 echo "✅ Created 20 working placeholder images from picsum.photos!"
 echo ""
 echo "These are real JPEG images that should display correctly in all browsers."
+

@@ -1,16 +1,12 @@
-export const dynamic = 'force-static';
+export const runtime = "edge";
 
-export function GET(): Response {
-  const robotsTxt = `User-agent: *
+export async function GET() {
+  const body = `User-agent: *
 Allow: /
-Disallow: /private/
-Disallow: /admin/
 
 Sitemap: https://petportrait.co/sitemap.xml`;
-
-  return new Response(robotsTxt, {
-    headers: {
-      'Content-Type': 'text/plain',
-    },
+  
+  return new Response(body, { 
+    headers: { "Content-Type": "text/plain" } 
   });
 }
