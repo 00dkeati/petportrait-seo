@@ -7,7 +7,7 @@ export default function SimpleImageTest() {
         <div>
           <h2 className="text-lg font-semibold mb-2">Golden Retriever</h2>
           <img 
-            src="/images/breeds/golden-retriever-traditional.jpg?v=2" 
+            src="/images/breeds/golden-retriever-traditional.jpg?v=3" 
             alt="Golden Retriever"
             width="400"
             height="225"
@@ -21,7 +21,7 @@ export default function SimpleImageTest() {
         <div>
           <h2 className="text-lg font-semibold mb-2">Homepage Hero</h2>
           <img 
-            src="/images/homepage/hero-showcase.jpg?v=2" 
+            src="/images/homepage/hero-showcase.jpg?v=3" 
             alt="Hero Showcase"
             width="400"
             height="225"
@@ -35,7 +35,7 @@ export default function SimpleImageTest() {
         <div>
           <h2 className="text-lg font-semibold mb-2">Labrador</h2>
           <img 
-            src="/images/breeds/labrador-splash-sketch.jpg?v=2" 
+            src="/images/breeds/labrador-splash-sketch.jpg?v=3" 
             alt="Labrador"
             width="400"
             height="225"

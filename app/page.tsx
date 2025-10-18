@@ -132,7 +132,7 @@ export default function HomePage() {
                 >
                   <div className="relative" style={{height: '200px'}}>
                     <img 
-                      src={`${breed.example_image}?v=2`} 
+                      src={`${breed.example_image}?v=3`} 
                       alt={`${breed.name} portrait example`}
                       className="w-full h-full object-cover"
                       style={{minHeight: '200px'}}
@@ -265,7 +265,7 @@ export default function HomePage() {
                 >
                   <div className="relative" style={{height: '200px'}}>
                     <img 
-                      src={`/images/gift-guides/${gift.slug}.jpg?v=2`} 
+                      src={`/images/gift-guides/${gift.slug}.jpg?v=3`} 
                       alt={`${gift.title} gift ideas`}
                       className="w-full h-full object-cover"
                       style={{minHeight: '200px'}}
