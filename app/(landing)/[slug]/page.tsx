@@ -6,7 +6,11 @@ import { getKeywordFromSlug } from "../../../lib/keywordMap";
 import { getCopy } from "../../../lib/content";
 import SeoJsonLd from "../../../components/SeoJsonLd";
 import Gallery from "../../../components/Gallery";
+import PublicGallery from "../../../components/PublicGallery";
+import { listPublicGallery } from "../../../lib/publicGallery";
 import galleryData from "../../../data/gallery.json";
+
+export const runtime = "nodejs";
 
 export const dynamicParams = false;
 
@@ -55,11 +59,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
+export default async function Page({ params }: { params: { slug: string } }) {
   const keyword = getKeywordFromSlug(params.slug) ?? "Pet portraits";
   const copy = getCopy(keyword);
   const canonical = `https://petportrait.co/${params.slug}`;
   const rel = relatedSlugs(params.slug);
+  const images = await listPublicGallery(24);
 
   return (
     <>
@@ -104,7 +109,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <p className="text-gray-600 mb-6">
           Explore a few of our favourite recent pieces from real customer photos.
         </p>
-        <Gallery images={galleryData} initialLoad={6} loadMoreCount={6} />
+        <PublicGallery sources={images} />
 
         <h2 className="text-2xl font-semibold mb-4 mt-12">Order Your Portrait</h2>
         <div dangerouslySetInnerHTML={{ __html: copy.ctaHtml }} className="mb-4" />

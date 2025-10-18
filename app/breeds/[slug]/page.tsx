@@ -7,7 +7,11 @@ import PhotoTips from '@/components/PhotoTips';
 import PopularQuestions from '@/components/PopularQuestions';
 import EditorialRecommendation from '@/components/EditorialRecommendation';
 import RelatedLinks from '@/components/RelatedLinks';
+import PublicGallery from '@/components/PublicGallery';
+import { listPublicGallery } from '@/lib/publicGallery';
 import breedsData from '@/data/breeds.json';
+
+export const runtime = "nodejs";
 
 interface BreedPageProps {
   params: Promise<{
@@ -73,6 +77,8 @@ export default async function BreedPage({ params }: BreedPageProps) {
     notFound();
   }
 
+  const images = await listPublicGallery(24);
+
   // Get related breeds (same category, excluding current breed)
   const relatedBreeds = breedsData
     .filter((b) => b.category === breed.category && b.slug !== breed.slug)
@@ -117,6 +123,16 @@ export default async function BreedPage({ params }: BreedPageProps) {
       
       <main>
         <HeroBreed breed={breed} />
+        
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Recent Pet Portraits
+            </h2>
+            <PublicGallery sources={images} />
+          </div>
+        </section>
+        
         <BreedOverview breed={breed} />
         <PortraitStyles breed={breed} />
         <PhotoTips breed={breed} />
