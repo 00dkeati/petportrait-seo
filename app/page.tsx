@@ -114,8 +114,38 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Featured Breeds */}
+        {/* Introduction Section */}
         <section className="py-16 px-4 bg-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Your Complete Guide to Custom Pet Portraits
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+              <p className="mb-6">
+                Welcome to PetPortrait.co, the internet's most comprehensive resource for custom pet portraits. 
+                Whether you're looking to capture your Golden Retriever's playful spirit, showcase your 
+                Persian cat's regal beauty, or create a memorial portrait of a beloved companion, we've 
+                got you covered with expert guidance, style recommendations, and trusted service reviews.
+              </p>
+              <p className="mb-6">
+                Our detailed breed guides help you understand which portrait styles work best for different 
+                pet types, from the flowing coats of long-haired breeds to the distinctive markings of 
+                short-haired varieties. We provide professional photo tips to ensure your reference images 
+                capture your pet's personality, plus gift ideas and service comparisons to help you make 
+                the perfect choice for your custom artwork.
+              </p>
+              <p>
+                With over 500+ keyword-targeted pages covering everything from "pet portraits UK" to 
+                "dog portrait drawing," our site serves as your one-stop destination for all things 
+                related to custom pet artwork. Each guide is crafted by pet portrait experts and 
+                regularly updated with the latest trends and service recommendations.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Breeds */}
+        <section className="py-16 px-4 bg-gray-50">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -254,9 +284,18 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Gift Guides for Pet Owners
               </h2>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-600 mb-6">
                 Thoughtful gift ideas for every occasion
               </p>
+              <div className="max-w-3xl mx-auto text-gray-700">
+                <p>
+                  Finding the perfect gift for pet lovers can be challenging, but custom pet portraits 
+                  make exceptional presents that will be treasured for years to come. Our curated gift 
+                  guides feature breed-specific recommendations, seasonal ideas, and special occasion 
+                  suggestions. From birthday surprises to memorial tributes, we help you choose gifts 
+                  that celebrate the unique bond between pets and their owners.
+                </p>
+              </div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -298,9 +337,18 @@ export default function HomePage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Best Pet Portrait Services UK
             </h2>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-6">
               Comprehensive reviews and comparisons of the top pet portrait services
             </p>
+            <div className="max-w-3xl mx-auto text-gray-700 mb-8">
+              <p>
+                We've thoroughly researched and tested the leading pet portrait services across the UK 
+                to bring you honest, detailed reviews. Our service comparisons cover pricing, quality, 
+                delivery times, and customer satisfaction ratings. Whether you're looking for digital 
+                artwork, traditional paintings, or unique artistic styles, our reviews help you make 
+                an informed decision and avoid common pitfalls in the pet portrait industry.
+              </p>
+            </div>
             
             <Link
               href="/services/best-pet-portrait-sites-uk"

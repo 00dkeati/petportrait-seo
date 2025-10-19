@@ -263,5 +263,217 @@
         "gift_suggestions": ["Custom Portrait", "Art Print", "Designer Collar"]
       }
     ]
+  },
+  {
+    "slug": "gifts-for-british-shorthair-owners",
+    "title": "Gifts for British Shorthair Owners",
+    "breed": "British Shorthair",
+    "category": "cat",
+    "ideas": [
+      {
+        "title": "Custom British Shorthair Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their plush coat and round features",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Regal Cat Photo Session",
+        "type": "Photography",
+        "description": "Professional photos showcasing their dignified nature",
+        "price_range": "£35-£80",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Luxury Cat Bed",
+        "type": "Accessories",
+        "description": "Premium bed matching their royal status",
+        "price_range": "£25-£60",
+        "cta_url": "#"
+      },
+      {
+        "title": "British Shorthair Art Print",
+        "type": "Home Decor",
+        "description": "Elegant wall art celebrating their breed",
+        "price_range": "£15-£35",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate their regal personality",
+        "gift_suggestions": ["Custom Portrait", "Photo Session", "Luxury Bed"]
+      },
+      {
+        "name": "Adoption Day",
+        "description": "Anniversary of bringing them home",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Art Print"]
+      },
+      {
+        "name": "Holiday Season",
+        "description": "Perfect gifts for British Shorthair families",
+        "gift_suggestions": ["Custom Portrait", "Art Print", "Luxury Bed"]
+      }
+    ]
+  },
+  {
+    "slug": "gifts-for-maine-coon-owners",
+    "title": "Gifts for Maine Coon Owners",
+    "breed": "Maine Coon",
+    "category": "cat",
+    "ideas": [
+      {
+        "title": "Custom Maine Coon Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their majestic size and tufted ears",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Giant Cat Photo Collection",
+        "type": "Photography",
+        "description": "Photos showcasing their impressive size",
+        "price_range": "£30-£75",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Extra Large Cat Tree",
+        "type": "Accessories",
+        "description": "Spacious tree for their large frame",
+        "price_range": "£50-£120",
+        "cta_url": "#"
+      },
+      {
+        "title": "Maine Coon Wall Art",
+        "type": "Home Decor",
+        "description": "Majestic prints celebrating their size",
+        "price_range": "£18-£40",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate their gentle giant nature",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Cat Tree"]
+      },
+      {
+        "name": "Adoption Day",
+        "description": "Anniversary of bringing them home",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Wall Art"]
+      },
+      {
+        "name": "Holiday Season",
+        "description": "Perfect gifts for Maine Coon families",
+        "gift_suggestions": ["Custom Portrait", "Wall Art", "Cat Tree"]
+      }
+    ]
+  },
+  {
+    "slug": "gifts-for-persian-cat-owners",
+    "title": "Gifts for Persian Cat Owners",
+    "breed": "Persian Cat",
+    "category": "cat",
+    "ideas": [
+      {
+        "title": "Custom Persian Cat Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their luxurious coat and flat face",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Luxury Cat Photo Session",
+        "type": "Photography",
+        "description": "Professional photos showcasing their elegance",
+        "price_range": "£40-£90",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Grooming Kit",
+        "type": "Accessories",
+        "description": "Premium tools for their long coat",
+        "price_range": "£20-£50",
+        "cta_url": "#"
+      },
+      {
+        "title": "Persian Cat Art Print",
+        "type": "Home Decor",
+        "description": "Elegant prints celebrating their beauty",
+        "price_range": "£15-£35",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate their regal beauty",
+        "gift_suggestions": ["Custom Portrait", "Photo Session", "Grooming Kit"]
+      },
+      {
+        "name": "Adoption Day",
+        "description": "Anniversary of bringing them home",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Art Print"]
+      },
+      {
+        "name": "Holiday Season",
+        "description": "Perfect gifts for Persian cat families",
+        "gift_suggestions": ["Custom Portrait", "Art Print", "Grooming Kit"]
+      }
+    ]
+  },
+  {
+    "slug": "gifts-for-ragdoll-owners",
+    "title": "Gifts for Ragdoll Owners",
+    "breed": "Ragdoll",
+    "category": "cat",
+    "ideas": [
+      {
+        "title": "Custom Ragdoll Portrait",
+        "type": "Art & Portraits",
+        "description": "Capture their blue eyes and docile nature",
+        "price_range": "£15-£45",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Gentle Cat Photo Session",
+        "type": "Photography",
+        "description": "Photos showcasing their calm personality",
+        "price_range": "£35-£80",
+        "cta_url": "https://familyportraitcompany.com/?utm_source=petportrait.co&utm_medium=editorial&utm_campaign=gift-guides"
+      },
+      {
+        "title": "Soft Cat Bed",
+        "type": "Accessories",
+        "description": "Plush bed for their relaxed lifestyle",
+        "price_range": "£20-£45",
+        "cta_url": "#"
+      },
+      {
+        "title": "Ragdoll Art Print",
+        "type": "Home Decor",
+        "description": "Beautiful prints celebrating their gentle nature",
+        "price_range": "£15-£35",
+        "cta_url": "#"
+      }
+    ],
+    "occasions": [
+      {
+        "name": "Birthday",
+        "description": "Celebrate their gentle personality",
+        "gift_suggestions": ["Custom Portrait", "Photo Session", "Soft Bed"]
+      },
+      {
+        "name": "Adoption Day",
+        "description": "Anniversary of bringing them home",
+        "gift_suggestions": ["Custom Portrait", "Photo Collection", "Art Print"]
+      },
+      {
+        "name": "Holiday Season",
+        "description": "Perfect gifts for Ragdoll families",
+        "gift_suggestions": ["Custom Portrait", "Art Print", "Soft Bed"]
+      }
+    ]
   }
 ]
