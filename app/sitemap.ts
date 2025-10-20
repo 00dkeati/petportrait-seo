@@ -47,17 +47,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base + "/coffee-shops", lastModified: now, changeFrequency: "monthly" as const, priority: 0.5 }
   ];
 
-  // SEO service pages
-  const seoServicePages = [
-    { url: base + "/seo/beauty-salon-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
-    { url: base + "/seo/boiler-service-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
-    { url: base + "/seo/cafes-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
-    { url: base + "/seo/dentist-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
-    { url: base + "/seo/electrician-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
-    { url: base + "/seo/hairdresser-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
-    { url: base + "/seo/massage-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
-    { url: base + "/seo/plumber-waterlooville", lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 }
-  ];
 
   return [
     { url: base + "/", lastModified: now, changeFrequency: "weekly", priority: 0.8 },
@@ -66,7 +55,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...generalPages,
     ...areaPages,
     ...categoryPages,
-    ...seoServicePages,
     ...petItems,
     ...waterloovilleItems
   ];
