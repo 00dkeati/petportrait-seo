@@ -29,7 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base + "/contact", lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: base + "/blog", lastModified: now, changeFrequency: "weekly" as const, priority: 0.6 },
     { url: base + "/privacy", lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
-    { url: base + "/terms", lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 }
+    { url: base + "/terms", lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
+    { url: base + "/waterlooville-letting-agents", lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 }
   ];
 
   // Area pages
