@@ -168,3 +168,4 @@ export default function CoffeeShopsPage() {
     </main>
   );
 }
+

@@ -19,3 +19,4 @@ export default function PublicGallery({ sources }: { sources: { src: string; alt
     </div>
   );
 }
+

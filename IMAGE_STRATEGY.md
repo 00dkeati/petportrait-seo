@@ -86,3 +86,4 @@ public/images/
 4. Push changes to GitHub
 5. Redeploy on Vercel
 
+

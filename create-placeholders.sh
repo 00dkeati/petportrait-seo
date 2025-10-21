@@ -80,3 +80,4 @@ echo "🔗 Source: https://familyportraitcompany.com/"
 echo "💰 Portrait styles: £6-£9 range"
 echo "⚡ Fast digital delivery"
 
+

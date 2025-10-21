@@ -23,3 +23,4 @@ export const seoKeywords = [
   "photo of pet dogs",
   "pet portraits pastel"
 ] as const;
+

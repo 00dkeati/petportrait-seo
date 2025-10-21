@@ -68,3 +68,4 @@ echo "✅ Created 20 working placeholder images from picsum.photos!"
 echo ""
 echo "These are real JPEG images that should display correctly in all browsers."
 
+

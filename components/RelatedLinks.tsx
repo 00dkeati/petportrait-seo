@@ -6,6 +6,22 @@ interface RelatedLinksProps {
   relatedBreeds: Breed[];
 }
 
+// Map breed slugs to their corresponding gift guide slugs
+const getGiftGuideSlug = (breedSlug: string): string => {
+  const giftGuideMap: Record<string, string> = {
+    'golden-retriever': 'gifts-for-golden-retriever-owners',
+    'labrador-retriever': 'gifts-for-labrador-owners',
+    'german-shepherd': 'gifts-for-german-shepherd-owners',
+    'french-bulldog': 'gifts-for-french-bulldog-owners',
+    'british-shorthair': 'gifts-for-british-shorthair-owners',
+    'maine-coon': 'gifts-for-maine-coon-owners',
+    'persian-cat': 'gifts-for-persian-cat-owners',
+    'ragdoll': 'gifts-for-ragdoll-owners',
+  };
+  
+  return giftGuideMap[breedSlug] || `gifts-for-${breedSlug}-owners`;
+};
+
 export default function RelatedLinks({ breed, relatedBreeds }: RelatedLinksProps) {
   return (
     <section className="py-16 px-4 bg-white">
@@ -66,7 +82,7 @@ export default function RelatedLinks({ breed, relatedBreeds }: RelatedLinksProps
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
-                href={`/gifts/gifts-for-${breed.slug}-owners`}
+                href={`/gifts/${getGiftGuideSlug(breed.slug)}`}
                 className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
               >
                 {breed.name} Gift Guide
