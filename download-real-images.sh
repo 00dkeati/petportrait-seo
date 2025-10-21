@@ -69,3 +69,4 @@ echo ""
 echo "These are real JPEG images that should display correctly in all browsers."
 
 
+

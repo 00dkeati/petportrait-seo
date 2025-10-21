@@ -21,6 +21,28 @@ export const seoKeywords = [
   "pet portrait drawing",
   "dog portrait drawing",
   "photo of pet dogs",
-  "pet portraits pastel"
+  "pet portraits pastel",
+  // High-volume keywords from keyword research
+  "custom pet portrait",
+  "pet portrait drawing uk",
+  "dog portrait drawing uk",
+  "pet portrait drawing uk",
+  "custom pet portraits uk",
+  "pet portrait artist uk",
+  "pet portrait services uk",
+  "dog portrait uk artist",
+  "cat portrait uk",
+  "pet portrait commission uk",
+  "hand drawn pet portrait",
+  "pencil pet portrait",
+  "watercolor pet portrait",
+  "digital pet portrait",
+  "oil painting pet portrait",
+  "memorial pet portrait",
+  "pet portrait gift uk",
+  "personalized pet portrait",
+  "custom dog portrait",
+  "custom cat portrait"
 ] as const;
+
 

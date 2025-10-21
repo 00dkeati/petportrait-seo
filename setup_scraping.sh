@@ -54,3 +54,4 @@ echo "3. Run: git push origin main"
 echo "4. Check your live site for the new images!"
 
 
+
