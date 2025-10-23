@@ -232,3 +232,4 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
 }
 
 
+

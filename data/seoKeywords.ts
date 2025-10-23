@@ -42,7 +42,35 @@ export const seoKeywords = [
   "pet portrait gift uk",
   "personalized pet portrait",
   "custom dog portrait",
-  "custom cat portrait"
+  "custom cat portrait",
+  // Country-specific "pet portrait" keywords for international SEO
+  "pet portrait",
+  "pet portrait uk",
+  "pet portrait usa",
+  "pet portrait us",
+  "pet portrait united states",
+  "pet portrait canada",
+  "pet portrait australia",
+  "pet portrait new zealand",
+  "pet portrait nz",
+  "pet portrait england",
+  "pet portrait scotland",
+  "pet portrait wales",
+  "pet portrait ireland",
+  "pet portrait toronto",
+  "pet portrait vancouver",
+  "pet portrait melbourne",
+  "pet portrait sydney",
+  "pet portrait auckland",
+  "pet portrait wellington",
+  "pet portrait london",
+  "pet portrait manchester",
+  "pet portrait birmingham",
+  "pet portrait edinburgh",
+  "pet portrait glasgow",
+  "pet portrait cardiff",
+  "pet portrait dublin",
+  "pet portrait belfast"
 ] as const;
 
 

@@ -984,3 +984,4 @@ console.log("➡  Sitemap: /sitemap.xml (auto) and robots.txt updated");
 console.log("ℹ️  Tip: add 20–50 pet images to /public/gallery for rich page media.");
 
 
+

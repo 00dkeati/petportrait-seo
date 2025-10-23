@@ -5,6 +5,7 @@ import { slugify } from "../../../lib/slugify";
 import { getKeywordFromSlug } from "../../../lib/keywordMap";
 import { getCopy } from "../../../lib/content";
 import SeoJsonLd from "../../../components/SeoJsonLd";
+import HreflangTags from "../../../components/HreflangTags";
 import Gallery from "../../../components/Gallery";
 import PublicGallery from "../../../components/PublicGallery";
 import { listPublicGallery } from "../../../lib/publicGallery";
@@ -38,10 +39,32 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const keyword = getKeywordFromSlug(params.slug) ?? "Pet portraits";
   const { title, metaDescription } = getCopy(keyword);
   const url = `https://petportrait.co/${params.slug}`;
+  
+  // Add hreflang for country-specific pages
+  const alternates: any = { canonical: url };
+  
+  // Check if this is a country-specific "pet portrait" variation
+  const countryVariations = [
+    'pet-portrait', 'pet-portrait-usa', 'pet-portrait-us', 'pet-portrait-united-states',
+    'pet-portrait-canada', 'pet-portrait-australia', 'pet-portrait-new-zealand', 'pet-portrait-nz',
+    'pet-portrait-england', 'pet-portrait-scotland', 'pet-portrait-wales', 'pet-portrait-ireland'
+  ];
+  
+  if (countryVariations.includes(params.slug)) {
+    alternates.languages = {
+      'en-GB': 'https://petportrait.co/pet-portrait',
+      'en-US': 'https://petportrait.co/pet-portrait-usa',
+      'en-CA': 'https://petportrait.co/pet-portrait-canada',
+      'en-AU': 'https://petportrait.co/pet-portrait-australia',
+      'en-NZ': 'https://petportrait.co/pet-portrait-new-zealand',
+      'x-default': 'https://petportrait.co/pet-portrait'
+    };
+  }
+  
   return {
     title,
     description: metaDescription,
-    alternates: { canonical: url },
+    alternates,
     openGraph: {
       title,
       description: metaDescription,
