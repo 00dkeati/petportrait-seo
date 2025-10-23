@@ -27,6 +27,19 @@ function getKeywordContext(keyword: string) {
   const isWales = lowerKeyword.includes('wales') || lowerKeyword.includes('cardiff');
   const isIreland = lowerKeyword.includes('ireland') || lowerKeyword.includes('dublin') || lowerKeyword.includes('belfast');
   
+  // Platform and service detection
+  const isEtsy = lowerKeyword.includes('etsy');
+  const isReddit = lowerKeyword.includes('reddit');
+  const isTattoo = lowerKeyword.includes('tattoo');
+  const isGenerator = lowerKeyword.includes('generator') || lowerKeyword.includes('ai');
+  const isOrnaments = lowerKeyword.includes('ornaments') || lowerKeyword.includes('christmas') || lowerKeyword.includes('holiday');
+  const isJewelry = lowerKeyword.includes('jewelry') || lowerKeyword.includes('necklace') || lowerKeyword.includes('pendant') || lowerKeyword.includes('keychain');
+  const isPaintings = lowerKeyword.includes('paintings') || lowerKeyword.includes('oil') || lowerKeyword.includes('acrylic') || lowerKeyword.includes('watercolor');
+  const isCommissions = lowerKeyword.includes('commissions') || lowerKeyword.includes('commission');
+  const isCost = lowerKeyword.includes('cost') || lowerKeyword.includes('price');
+  const isNearMe = lowerKeyword.includes('near me');
+  const isRoyalty = lowerKeyword.includes('king') || lowerKeyword.includes('queen') || lowerKeyword.includes('royalty');
+  
   // Determine country
   let country = 'UK';
   if (isUsa) country = 'USA';
@@ -58,7 +71,18 @@ function getKeywordContext(keyword: string) {
     isEngland,
     isScotland,
     isWales,
-    isIreland
+    isIreland,
+    isEtsy,
+    isReddit,
+    isTattoo,
+    isGenerator,
+    isOrnaments,
+    isJewelry,
+    isPaintings,
+    isCommissions,
+    isCost,
+    isNearMe,
+    isRoyalty
   };
 }
 
@@ -86,6 +110,28 @@ export function getCopy(keyword: string) {
     metaDescription = `Professional ${keyword} service in New Zealand. Custom pet portraits from your photos with fast delivery nationwide.`;
   } else if (context.isGift) {
     metaDescription = `Perfect ${keyword} for pet lovers. Custom artwork from your photos, ideal for birthdays, anniversaries, and special occasions.`;
+  } else if (context.isEtsy) {
+    metaDescription = `Find the best ${keyword} on Etsy. Custom pet portraits from talented artists with fast delivery and satisfaction guarantee.`;
+  } else if (context.isReddit) {
+    metaDescription = `Discover ${keyword} recommendations on Reddit. Real reviews and experiences from pet owners who've commissioned custom portraits.`;
+  } else if (context.isTattoo) {
+    metaDescription = `Professional ${keyword} artists create beautiful pet tattoos. Custom designs from your photos with expert artistry and care.`;
+  } else if (context.isGenerator) {
+    metaDescription = `Free ${keyword} tools and AI generators. Create custom pet portraits instantly from your photos with professional results.`;
+  } else if (context.isOrnaments) {
+    metaDescription = `Beautiful ${keyword} for Christmas and holidays. Custom pet ornaments made from your photos, perfect for tree decorations.`;
+  } else if (context.isJewelry) {
+    metaDescription = `Elegant ${keyword} jewelry and accessories. Custom pet necklaces, pendants, and keychains made from your favorite photos.`;
+  } else if (context.isPaintings) {
+    metaDescription = `Professional ${keyword} artists create stunning oil and acrylic paintings. Custom pet artwork from your photos with museum quality.`;
+  } else if (context.isCommissions) {
+    metaDescription = `Commission custom ${keyword} from professional artists. Personalized pet artwork created from your photos with expert craftsmanship.`;
+  } else if (context.isCost) {
+    metaDescription = `Affordable ${keyword} pricing and costs. Professional pet portraits from your photos with transparent pricing and great value.`;
+  } else if (context.isNearMe) {
+    metaDescription = `Find ${keyword} artists near you. Local pet portrait services with convenient locations and personalized service.`;
+  } else if (context.isRoyalty) {
+    metaDescription = `Royal ${keyword} designs fit for kings and queens. Fun pet portraits with crowns, thrones, and regal styling from your photos.`;
   }
 
   // Enhanced intro based on keyword context
@@ -105,6 +151,28 @@ export function getCopy(keyword: string) {
     introHtml = `<p>At PetPortrait.co, we're proud to serve pet owners across Australia with our leading ${keyword} service. Our experienced artists create beautiful custom portraits that capture your pet's unique personality. With fast delivery nationwide and Australian-friendly sizing options, we make it easy to get the perfect pet portrait.</p>`;
   } else if (context.isNewZealand) {
     introHtml = `<p>At PetPortrait.co, we're proud to serve pet owners across New Zealand with our professional ${keyword} service. Our skilled artists create beautiful custom portraits that capture your pet's unique personality. With fast delivery nationwide and New Zealand-friendly sizing options, we make it easy to get the perfect pet portrait.</p>`;
+  } else if (context.isEtsy) {
+    introHtml = `<p>Discover the best ${keyword} on Etsy! Our curated selection features talented artists who specialize in creating beautiful custom pet portraits from your photos. Whether you're looking for traditional paintings, digital art, or unique styles, you'll find amazing options on Etsy with fast shipping and excellent customer service.</p>`;
+  } else if (context.isReddit) {
+    introHtml = `<p>Get real insights about ${keyword} from the Reddit community! Pet owners share their experiences, recommendations, and honest reviews about custom pet portrait services. Discover which artists deliver quality work, learn about pricing, and find trusted recommendations from fellow pet lovers.</p>`;
+  } else if (context.isTattoo) {
+    introHtml = `<p>Transform your pet's photo into a stunning ${keyword}! Our skilled tattoo artists specialize in creating beautiful pet designs that capture your furry friend's unique personality. From realistic portraits to stylized designs, we'll work with you to create the perfect tattoo that honors your pet.</p>`;
+  } else if (context.isGenerator) {
+    introHtml = `<p>Create amazing ${keyword} instantly with our free AI tools! Upload your pet's photo and watch as our advanced generator creates beautiful custom portraits in seconds. Perfect for quick gifts, social media posts, or just having fun with your pet's image.</p>`;
+  } else if (context.isOrnaments) {
+    introHtml = `<p>Make your holidays extra special with beautiful ${keyword}! Our custom ornaments feature your pet's photo transformed into festive decorations perfect for your Christmas tree. Each ornament is carefully crafted to capture your pet's personality and create lasting holiday memories.</p>`;
+  } else if (context.isJewelry) {
+    introHtml = `<p>Wear your love for your pet with elegant ${keyword}! Our custom jewelry features your pet's photo transformed into beautiful necklaces, pendants, and keychains. Each piece is carefully crafted to capture your pet's unique features and create a meaningful keepsake you can wear every day.</p>`;
+  } else if (context.isPaintings) {
+    introHtml = `<p>Commission stunning ${keyword} from professional artists! Our skilled painters create beautiful oil and acrylic paintings that capture your pet's personality and unique features. Each painting is a one-of-a-kind masterpiece created from your favorite photos.</p>`;
+  } else if (context.isCommissions) {
+    introHtml = `<p>Commission custom ${keyword} from our talented artists! We specialize in creating personalized pet artwork that captures your pet's unique personality and features. Our commission process is simple and collaborative, ensuring you get exactly the portrait you envision.</p>`;
+  } else if (context.isCost) {
+    introHtml = `<p>Get transparent pricing for ${keyword}! We believe in fair, upfront pricing with no hidden fees. Our cost-effective services deliver professional quality pet portraits at prices that fit your budget, with various options to suit different needs and preferences.</p>`;
+  } else if (context.isNearMe) {
+    introHtml = `<p>Find the best ${keyword} artists in your area! Our local artist network provides convenient, personalized service with face-to-face consultations. Whether you're looking for traditional paintings, digital art, or unique styles, we'll connect you with talented artists near you.</p>`;
+  } else if (context.isRoyalty) {
+    introHtml = `<p>Give your pet the royal treatment with fun ${keyword}! Our artists create hilarious and adorable portraits featuring your pet as kings, queens, and royalty. Complete with crowns, thrones, and regal styling, these portraits are perfect for pet owners who want something fun and unique.</p>`;
   }
 
   const featureList = [

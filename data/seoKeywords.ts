@@ -70,7 +70,61 @@ export const seoKeywords = [
   "pet portrait glasgow",
   "pet portrait cardiff",
   "pet portrait dublin",
-  "pet portrait belfast"
+  "pet portrait belfast",
+  // High-priority keywords from position tracking report
+  "pet portrait custom",
+  "pet portrait paintings",
+  "pet portrait etsy",
+  "pet portrait tattoo",
+  "pet portrait commissions",
+  "pet portrait ornaments",
+  "pet portrait reddit",
+  "pet portrait generator free",
+  "pet portrait ai",
+  "pet portrait as king",
+  "pet portrait tattoo artist near me",
+  "pet portrait as royalty",
+  "pet portrait tattoo near me",
+  "pet portrait gifts",
+  "pet portrait cost",
+  "pet portrait generator",
+  "pet portrait oil painting",
+  "pet portrait as queen",
+  "pet portrait artist near me",
+  "pet portrait necklace",
+  "pet portrait entrepreneur",
+  // Platform-specific variations
+  "pet portrait etsy uk",
+  "pet portrait etsy usa",
+  "pet portrait reddit uk",
+  "pet portrait reddit usa",
+  // Local service variations
+  "pet portrait tattoo artist",
+  "pet portrait tattoo shop",
+  "pet portrait artist",
+  "pet portrait painter",
+  "pet portrait illustrator",
+  // Style-specific variations
+  "pet portrait oil paintings",
+  "pet portrait acrylic painting",
+  "pet portrait watercolor painting",
+  "pet portrait charcoal drawing",
+  "pet portrait pencil sketch",
+  // Gift and product variations
+  "pet portrait christmas ornaments",
+  "pet portrait holiday ornaments",
+  "pet portrait jewelry",
+  "pet portrait pendant",
+  "pet portrait keychain",
+  "pet portrait mug",
+  "pet portrait canvas",
+  "pet portrait print",
+  // Service variations
+  "pet portrait commission",
+  "pet portrait service",
+  "pet portrait business",
+  "pet portrait company",
+  "pet portrait studio"
 ] as const;
 
 
